@@ -22,7 +22,7 @@ app.use(cors({
     'http://localhost:5500', // também pode incluir esse
     'https://dent-case.netlify.app'
   ], // adiciona localhost
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: false
 }));
